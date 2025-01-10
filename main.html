@@ -3,10 +3,49 @@
 <html>
 
 <head>
+	<title>Signup Form Car</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+	<form>
+
+		<label for="name">Name</label>
+			<input type="text" required id="name" placeholder="Name">
+	</br>
+		<label for="email">Email</label>
+			<input type="email" required id="email" placeholder="Email">
+		</br>
+		<label for="name">Gender</label>
+			<input type="radio" required id="gender_m" name="gender">
+			<input type="radio" required id="gender_f" name="gender">
+		</br>
+		<label>--Please choose an option--</label>
+		<select>
+			<option>Ferrari</option>
+			<option>Bmw</option>
+			<option>Lamborghini</option>
+			<option>Buggati</option>
+
+		</select></br>
+		
+		<label for="age">Age</label>
+			<input type="number" required id="age" placeholder="Age"></br>
+		<label for="dob">DOB</label>
+			<input type="date"  id="dob"></br>
+		
+		<label for="tel">Phone Number</label>
+			<input type="tel" required id="tel" placeholder="xxx-xxx-xxxx"></br>
+		<label for="password">Password</label>
+			<input type="password" required id="password" placeholder="Password">
+		</br>
+		<label for="tos">I agree to the TOS</label>
+		<input type="checkbox" required id="tos">
+
+
+
+		
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
